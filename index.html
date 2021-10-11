@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>HEX 2 RGBA Color Calculator | by @Oathan Rex</title>
+	<meta name="description" content="HEX to RGBA, RGB and R G B Calculator.">
+	<meta name="keywords" content="hex, rgb, rgba, calculator, generator, converter">
+	<meta name="language" content="en">
+	<meta name="author" content="http://www.oathanrex.blogspot.com/">
+	<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/vader/jquery-ui-1.8.4.custom.css" media="screen" charset="utf-8">
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/screen_ie6.css" media="screen" charset="utf-8">
+	<![endif]-->
+
+</head>
+<body id="glowna">
+	<div id="all">
+
+		<div id="header">
+
+			<!-- h1 -->
+			<a class="back" href="http://www.oathanrex.blogspot.com/">&laquo; Back to OathanRex</a>
+			<h1>OathanRex&lsquo;s HEX 2 RGBA Color Calculator <span class="version">ver 1.3</span></h1>
+			<p>Let&lsquo;s you convert color value in <strong>HEX</strong> to <strong>RGBA</strong> and <strong>RGB</strong>, prepared for inclusion in <em>CSS styles</em>.</p>
+		</div>
+
+		<div class="sps">
+	<!-- hex2rgba top ad -->
+	
+	<!-- end of hex2rgba top ad -->
+</div>
+		<div id="content">
+
+			<div id="additionalContent">
+				<h2>Like what I do? Check my other tools &amp;&nbsp;scripts:</h2>
+				<a href="https://oathanrex.github.io/jsPacker" class="promoted_item">
+					<h3><span class="tag">jsPacker</span> A JavaScript Compressor.</h3>
+					<p>
+						Packed scripts should successfully unpack on all browsers that support JavaScript. Only basic JavaScript functionality is used to decode the packed script.
+
+Some browsers may not support the packer itself. The web interface requires DOM support. Legacy browsers will display a disabled interface.
+						<br>Check it out &rarr;
+					</p>
+				</a>
+				<!-- <a href=" ?ref=OathanRex" class="promoted_item"> -->
+				<a href="https://oathanrex.github.io/de4js/" class="promoted_item">
+					<h3><span class="tag">jsUnpacker</span> JavaScript Deobfuscator and Unpacker</h3>
+					<p>
+						Online JavaScript decoder. Supported sojson v4/Premium/v5 and more (No longer update).
+						<br>Have a look &rarr;
+					</p>
+				</a>
+<!--
+				
+ -->
+				<p class="connect">Email <strong>Us</strong>: <a href="mailto:oathanrex@gmail.com">Send email</a></p>
+
+				<h2>You might also like:</h2>
+
+				<!-- hex2rgba side ad -->
+				
+				<!-- end of hex2rgba side ad -->
+
+			</div>
+
+			<div id="mainContent">
+				<noscript>
+					<p class="error">This calculator is built in JavaScript. Turn it on mate.</p>
+				</noscript>
+
+				<form>
+					<fieldset>
+						<legend>Convert your color:</legend>
+						<ol class="fieldsList column1">
+							<li>
+								<label for="f_hex_value">HEX value (e.g. <a href="#" class="setColor">#f00</a>, <a href="#" class="setColor">#812dd3</a>, <a href="#" class="setColor">ba3</a>, <a href="#" class="setColor">F924A4</a>, <a href="#" class="setColor">red</a>)</label>
+							</li>
+							<li>
+								<input type="text" name="f_hex_value" value="" id="f_hex_value">
+							</li>
+							<li>
+								<p>Opacity: <input type="text" class="opacity" id="opacity"> %</p>
+								<div id="slider"></div>
+							</li>
+							<li class="buttons">
+								<button class="css3button blue" id="calculate"><span>&raquo;</span> HEX 2 RGB(A) <span>&raquo;</span></button>
+							</li>
+						</ol>
+						<ol class="fieldsList column2">
+							<li>
+								<label for="f_r">RGB color values</label>
+							</li>
+							<li>
+								<label>R
+								<input type="text" name="f_r" value="" id="f_r" class="separate">
+								</label>
+								<label>G
+								<input type="text" name="f_g" value="" id="f_g" class="separate">
+								</label>
+								<label>B
+								<input type="text" name="f_b" value="" id="f_b" class="separate">
+								</label>
+							</li>
+							<li>
+								<label for="f_rgb_for_css" id="f_rgb_for_css_label">RGB for CSS</label>
+							</li>
+							<li id="liRGB">
+								<input type="text" name="f_rgb_for_css" value="" id="f_rgb_for_css">
+							</li>
+							<li>
+								<label for="f_rgba_for_css" id="f_rgba_for_css_label">RGBA for CSS</label>
+							</li>
+							<li id="liRGBA">
+								<input type="text" name="f_rgba_for_css" value="" id="f_rgba_for_css">
+							</li>
+						</ol>
+					</fieldset>
+				</form>
+
+				<div class="additionalInfo">
+					<h2>Short info</h2>
+					<p>This CSS3 calculator was built for lazy people like myself. There are many great <strong>HEX to RGB color converters</strong> out there, but usually they give you result in three separate fields (R, G &amp; B), which is annoying because 99% of times when I need an RGB value from HEX, I need to paste it to some CSS rule. So why copy/paste from three fields, when you can have it in one field - nicely baked for CSS inclusion.</p>
+					<h2>What&lsquo;s new?</h2>
+					<dl>
+						<dt>1.3.0 <small><em>(2014/07/31)</em></small></dt>
+						<dd>Added an input field for the opacity, for people who don't like to work with sliders.</dd>
+						<dd>Main HEX input is now autofocused when you enter the page.</dd>
+						<dd>Sample HEX and HTML colors in HEX input label can now be clicked to autofill the input.</dd>
+						<dt>1.2.0 <small><em>(2013/11/27)</em></small></dt>
+						<dd>You can now copy converted color values from the form fields, straight to the clipboard, with one click (Flash required).</dd>
+						<dt>1.1.0 <small><em>(2012/06/20)</em></small></dt>
+						<dd>Added support for HTML color names (aqua, magenta, linen, black, etc.). Now you can type in red in five different ways: #ff0000, ff0000, #f00, f00 or just plain <em>red</em></dd>
+						<dd>You can invoke conversion by submitting the form (hitting <key>enter</key>), no need to hit that big green submit button&hellip; unless you like it!</dd>
+						<dd>Clicking on RGB &amp; RGBA result fields will instantly select the whole result for you, so you just insta-copy the whole thing. You can now save a bizilion clicks per day!</dd>
+						<dt>1.0.0 <small><em>(2010/08/20)</em></small></dt>
+						<dd>Initial release</dd>
+					</dl>
+				</div>
+			</div>
+
+		<!-- footer -->
+		<div class="footer">
+			<p class="copyright">&copy; Oathan Rex 2010 - 2021. All rights reserved.</p>
+		</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.zclip.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/swfobject.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/main.js" charset="utf-8"></script>
+
+</body>
+
+
+</html>
